@@ -1,3 +1,5 @@
+#Exercício 1117 - Validação de Notas
+
 nota1 = float(input("Nota 1: "))
 while(nota1 < 0 or nota1 > 10):
     print("Nota inválida.")

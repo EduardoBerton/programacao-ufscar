@@ -1,3 +1,5 @@
+#Exercício 1143 - Quadrado e Cúbico
+
 i = 1   
 N = int(input("Digite um Número: "))
 
