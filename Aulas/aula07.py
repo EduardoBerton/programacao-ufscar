@@ -11,5 +11,6 @@ for i in L1:
 media = soma/len(L1)
 print(media)
 
-notas = [10, 10, 10]
+
+
 

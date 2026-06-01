@@ -5,6 +5,8 @@
 # a.insert(x,y) ---- Coloca o elemento y na posição x
 # print(a.pop(x)) --- Tira o elemento da posição x na lista a e mostra
 # a.extend(b) ---- Extende a lista a com os elementos de b (a += b)
+# del(a[x]) ---- deleta x de a 
+
 
 #Apelidos de lista 
 #a = [1, 2, 3]
@@ -21,7 +23,7 @@ b[2] = 2
 print(a)
 
 #Atualização de lista
-#Salto ::
+#Salto :: 
 
 print(a[-2:-1])
 a1 = a[::2]
@@ -29,4 +31,4 @@ a2 = a[::-1]
 
 print(a2)
 
-print(a[0:-1])
+
