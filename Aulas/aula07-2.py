@@ -31,4 +31,11 @@ a2 = a[::-1]
 
 print(a2)
 
+c = [2,4,5,6]
+d = []
+for i in c: 
+    d.append(c.pop(i))
+
+print(d)
+
 
