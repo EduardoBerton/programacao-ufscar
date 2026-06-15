@@ -8,7 +8,7 @@ while (N != 0) == True:
     maior_linha = 0
     
     for i in range(N):
-        linha = " ".join(input().split())
+        linha = " ".join(input().upper().split())
         texto.append(linha)
 
         if len(linha) > maior_linha:
