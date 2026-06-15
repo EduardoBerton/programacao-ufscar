@@ -1,5 +1,28 @@
 #Exercício 1255 - Frequencia de letras
-#Must Contain at least one letter and maximum of 200 characters
-# .lower() - convert to lowercase text
-# .upeer() - convert to uppercase text
-# sorted() - sort in ascending or descendig order
+
+N = int(input())
+
+for i in range(N):
+
+    text = input().replace(" ","").lower()
+    letras = {}
+
+    for letra in text:
+        if letra not in letras: 
+            letras[f"{letra}"] = 1
+        else: 
+            letras[f"{letra}"] += 1
+    
+    maior_freq = 0
+
+    for letra in letras:
+        if letras[letra] > maior_freq:
+            maior_freq = letras[letra]
+    
+    mais_freq = ""
+
+    for letra in sorted(letras):
+        if letras[letra] == maior_freq:
+            mais_freq += letra
+
+    print(mais_freq)

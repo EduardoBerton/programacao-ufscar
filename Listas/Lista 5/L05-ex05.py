@@ -1,6 +1,4 @@
 #Exercício  1180 - Menor e Posição
-# menor = min(X) - Dá o menor
-# X.index(menor) - Dá a posição
 
 N = int(input())
 X = list(map(int, input().split()))

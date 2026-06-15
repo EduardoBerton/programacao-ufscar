@@ -1,6 +1,12 @@
 #Teste contador de caracteres que imprime as maiores frequencias
 
-text = input("Texto: ").replace(" ","")
+# .lower() - convert to lowercase text
+# .upper() - convert to uppercase text
+# sorted() - sort in ascending or descendig order
+# menor = min(X) - Dá o menor
+# X.index(menor) - Dá a posição
+
+text = input("Texto: ").replace(" ","").lower()
 letras = {} #a: x, b: y...
 
 

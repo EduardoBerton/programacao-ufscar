@@ -1,6 +1,4 @@
 #Exercício 1175 - Troca em Vetor I
-# Usar Saltos pra inverter N = N[::-1]
-# (i) como contador
 
 N = []
 i = 0 
