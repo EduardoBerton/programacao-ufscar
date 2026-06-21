@@ -11,7 +11,7 @@ super_man = "     socorraM me subi no onibus em marrocos     "
 print(super_man[::-1])
 
 
-print(super_man.strip().expandtabs(tabsize=2))
+print(super_man.strip())
 print(super_man.lower().strip().endswith("marrocos"))
 
 
